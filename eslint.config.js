@@ -27,6 +27,16 @@ export default [
         "error",
         { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
       ],
+      eqeqeq: ["error", "always"],
+    },
+  },
+
+  // TypeScript formatting conventions
+  {
+    files: ["**/*.{ts,tsx}"],
+    rules: {
+      quotes: ["error", "single", { avoidEscape: true }],
+      semi: ["error", "always"],
     },
   },
 

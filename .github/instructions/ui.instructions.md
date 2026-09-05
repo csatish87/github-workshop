@@ -51,6 +51,13 @@ Refer to technology-specific instruction files:
 - Use props for configuration, not duplication
 - Document component APIs with TypeScript types
 
+### Comments and Documentation
+
+- Comment **why**: capture intent, rationale, constraints, and non-obvious decisions.
+- Do not restate what the markup or TypeScript already says; remove comments that only paraphrase code.
+- Keep comments accurate and update or remove them when the related implementation changes.
+- Reusable Astro components must document their `Props` interface as described in [`astro.instructions.md`](astro.instructions.md).
+
 ## Development Workflow
 
 1. **Choose the right tool**: 
